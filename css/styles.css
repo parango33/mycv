@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    margin-top: 0;
+    text-align: center;
+    color: #40514E;
+}
+
+#div1 {
+    background-color: #CFFDE1;
+    margin-left: 10px;
+    border: solid 10px;
+    padding: 10px;
+    position: relative;
+    padding-top: 100px;
+}
+
+#div2 {
+    height: 100px;
+    background-color: red;
+    width: 300px;
+    margin-left: 350px;
+    border: solid 10px;
+}
+
+hr{
+    color: #EAF6F6;
+    border-style: dotted;
+}
+
+#titleName{
+    display: inline;
+}
+
+#titleName2{
+    display: inline;
+}
+
+h1{
+    width: 10%;
+    top: 100px;
+    font-family: "Seymour One";
+    color: #66bfbf;
+}
+
+span{
+    text-decoration-line:underline;
+}
+
+#cloud1{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}
+
+#cloud2{
+    position: absolute;
+}
+
+.skills{
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.image-sill{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.image-squash{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.skill-description{
+    clear: left;
+}
+
+.a{
+    color: #11999E;
+    font-family: 'Monserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+ color: white;
+}
+.bottom-container{
+    padding-top: 10px;
+    background-color: #CFFDE1;
+}
