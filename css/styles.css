@@ -1,98 +1,254 @@
+/*Body*/
 body{
-    background-color: white;
-    margin-top: 0;
+    background-color: #FFEA20;
     text-align: center;
-    color: #40514E;
 }
 
-#div1 {
-    background-color: #CFFDE1;
-    margin-left: 10px;
-    border: solid 10px;
-    padding: 10px;
-    position: relative;
-    padding-top: 100px;
+.main-container{
+    background-color: #FFEA20;
+}
+.intro{
+    background-color: #8DCBE6;
+    border-style: solid;
+    border-radius: 2%;
+    margin: 2%;
 }
 
-#div2 {
-    height: 100px;
-    background-color: red;
-    width: 300px;
-    margin-left: 350px;
-    border: solid 10px;
-}
 
 hr{
     color: #EAF6F6;
-    border-style: dotted;
+}
+
+.text-pablo{
+    font-family: serif;
+}
+
+/*Navbar*/
+
+.navbar-b{
+    display: none;
+}
+
+.navbar-brand {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/*Titles*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat-Bold', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+}
+.section-heading {
+    font-size: 2.5rem;
+    text-align: left;
 }
 
 #titleName{
-    display: inline;
+    color: black;
+    font-size: 5rem;
+    font-family: 'Montserrat-Bold', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
 }
 
 #titleName2{
     display: inline;
 }
 
-h1{
-    width: 10%;
-    top: 100px;
-    font-family: "Seymour One";
-    color: #66bfbf;
+.col-title{
+    text-align: center;
+    align-items: center;
 }
 
 span{
     text-decoration-line:underline;
 }
 
-#cloud1{
-    position: absolute;
-    top: 20px;
-    left: 600px;
+
+/*Skills*/
+
+.general-skills{
+    background-color: #E3F6FF;
+    padding: 5rem 4rem 5rem 4rem;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
 }
 
-#cloud2{
-    position: absolute;
+
+.specific-skills{
+    background-color: #8DCBE6;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+
+
 }
 
-.skills{
-
+.card-skill-header{
+    background-color: #8DCBE6 !important;
 }
-.skill-row{
-    width: 50%;
+
+.icon-skill{
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.skill-col{
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
 
-.image-sill{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.image-squash{
-    width: 25%;
-    float: right;
-    margin-right: 30px;
+.image-skill-card{
+    padding: 10px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .skill-description{
     clear: left;
 }
 
-.a{
-    color: #11999E;
-    font-family: 'Monserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
 
-a:hover{
- color: white;
-}
+
 .bottom-container{
     padding-top: 10px;
     background-color: #CFFDE1;
+}
+
+.dFlex{
+    margin: 6px;
+}
+
+/*Hobbies*/
+.hobbieName{
+    font-family: 'Monserrat-Bold', 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+.hobbiesContainer{
+    text-align: center;
+    
+}
+
+.icon-hobbie{
+    color: #8DCBE6;
+}
+
+.icon-hobbie:hover{
+    color: #E3F6FF;
+}
+
+.text-skill{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*Botones*/
+.button-skill{
+    margin: 5% 3% 5% 0;
+}
+
+/*Images*/
+.image-pablo{
+    width: 60%;
+}
+
+.house{
+    position: static;
+    width: 60%;
+    height: 80%;
+}
+
+.celia-container{
+    text-align: center;
+}
+
+#celia{
+    position: static;
+    top: 400px;
+    left: 1100px;
+    height: 30%;
+}
+
+.quote{
+    font-family: 'sans-serif';
+    font-style: italic;
+    font-size: 1.5rem;
+
+}
+
+/*Books*/
+#books{
+    background-color: #CFFDE1;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.books-read{
+    position: relative;
+    z-index: 2;
+    top: 20px;
+}
+.shaq{
+    position: relative;
+    z-index: 1;
+}
+
+/*Contact me*/
+.contact-me{
+    padding: 30px;
+    font-family: 'Monserat-Bold', sans-serif;
+    background-color: #E3F6FF;
+    padding: 5rem 4rem 5rem 4rem;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    /*border-color:  #8DCBE6;*/
+    border-color: black;
+}
+
+
+/*Media queries*/
+@media (max-width: 1028px){
+    #titleName{
+        text-align: center;
+    }
+    #cloud2{
+        position: static;
+    }
+    #cloud1{
+        position:static;
+    }
+}
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+}
+
+#boton-send{
+    background-color: #8DCBE6;
+}
+
+
+/*Footer*/
+
+#footer{
+    text-align: center;
+    background-color: #8DCBE6;
+}
+.social-icon{
+    margin: 10px;
 }
