@@ -9,7 +9,7 @@ app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 
-const port = 8081;
+const port = process.env.PORT || 8081;
 
 
 app.get('/',(req,res) => {
