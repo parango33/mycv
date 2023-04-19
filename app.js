@@ -9,7 +9,7 @@ app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 3000;
 
 
 app.get('/',(req,res) => {
@@ -54,7 +54,7 @@ app.post('/', (req,res) => {
 
 })
 
-app.listen(port, () => {
+app.listen(port,() => {
     console.log('server started on port ' + port);
 })
 
